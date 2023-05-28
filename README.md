@@ -15,8 +15,7 @@ To write a python program for creating Echo Client and Echo Server using TCP Soc
 # PROGRAM :
 ## CLIENT :
 ```
-# Developed by: M.D.HARINI
-# Register No: 212222230043
+
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -27,8 +26,7 @@ while True:
 ```
 ## SERVER :
 ```
-# Developed by: M.D.HARINI
-# Register No: 212222230043
+
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
